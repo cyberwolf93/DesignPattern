@@ -40,7 +40,7 @@ class CircleButton: UIButton, Button {
     }
     
     func draw() {
-        self.layer.cornerRadius = 5
+        self.layer.cornerRadius = frame.width / 2
     }
 }
 
